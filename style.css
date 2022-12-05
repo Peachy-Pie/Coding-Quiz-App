@@ -12,10 +12,13 @@ body {
     justify-content: center;
 }
 
+.high-timer {
+    justify-content: space-between;
+}
+
 .container {
     width: 750px;
     max-width: 75%;
-    margin-top: 50px;
 }
 
 .contentPreStart {
