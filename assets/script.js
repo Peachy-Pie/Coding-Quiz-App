@@ -127,8 +127,7 @@ function showQuestion() {
 
 function checkAnswer(answer) {
   if (
-    questions[currentQuestion].answer ==
-    questions[currentQuestion].choices[answer.id]
+    questions[currentQuestion].answer == questions[currentQuestion].choices[answer.id]
   ) {
     score += 5;
     dispMessage("Correct!");
