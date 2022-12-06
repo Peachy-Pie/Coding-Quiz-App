@@ -30,7 +30,7 @@ let interval;
 let timeGiven = 120;
 let timeGone = 0;
 
-//****************EVENT LISTENRS****************//
+//****************EVENT LISTENERS****************//
 
 startBtn.addEventListener("click", function () {
   hide(preQuestionContent);
