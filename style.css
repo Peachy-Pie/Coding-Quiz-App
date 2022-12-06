@@ -1,48 +1,48 @@
 :root {
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vw;
-    justify-content: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+  justify-content: center;
 }
 
 .high-timer {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .container {
-    width: 750px;
-    max-width: 75%;
+  width: 750px;
+  max-width: 75%;
 }
 
 .contentPreStart {
-    text-align: center;
+  text-align: center;
 }
 
 .btnFlex {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 50px;
 }
 
 .btn {
-    background-color: rgb(94, 5, 94);
-    border-radius: 5px;
-    color: white;
+  background-color: rgb(94, 5, 94);
+  border-radius: 5px;
+  color: white;
 }
 
 .btn:hover {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
